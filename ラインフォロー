@@ -13,11 +13,6 @@ MIN_CONTOUR_AREA = 30
 CROP_FLOOR = ((360, 0), (rc.camera.get_height(), rc.camera.get_width()))
 
 BLUE = ((90, 50, 50), (120, 255, 255))
-GREEN = ((35, 50, 50), (80, 255, 255))
-RED = ((0, 50, 50), (10, 255, 255))
-
-COLOR_PRIORITY = (BLUE, GREEN, RED)
-
 
 Kp = 1.2
 Ki = 0.0
